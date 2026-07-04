@@ -416,3 +416,8 @@ figure.anat figcaption{font-size:12px;color:var(--gray);margin-top:10px;letter-s
 .chain .lk.worst::before{background:#fff;color:#31201e}
 .chain .lk.worst h4{color:#ff8a76}
 .chain .lk.worst p{color:#e3c6c1}
+
+/* 図解プレースホルダー（プロ制作画像の差し込み枠） */
+.phase.solo{grid-template-columns:1fr}
+.fig-todo{border:2px dashed #bfe0dd;background:var(--teal-pale);color:var(--teal-deep);text-align:center;padding:46px 22px;margin:32px auto;max-width:620px;font-size:12.5px;letter-spacing:.04em;border-radius:8px;line-height:1.9}
+.fig-todo b{display:block;font-size:15px;margin-bottom:6px;letter-spacing:.06em}
