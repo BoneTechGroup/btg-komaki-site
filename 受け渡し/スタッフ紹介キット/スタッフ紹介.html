@@ -1,0 +1,48 @@
+<!-- ============================================================
+  スタッフ紹介セクション（交通事故サイト btg-komaki-hp から移植）
+  ・実写ポラロイド風カード × ちびキャラ重ね のデザイン
+  ・画像パスは公式サイトの構成に合わせて書き換えること
+  ・.reveal クラスはスクロール出現アニメ用（下記JSが必要。
+    使わない場合は reveal/left/right クラスを外すだけでOK）
+============================================================ -->
+<section class="staff" id="staff">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="en">STAFF</span>
+      <h2>あなたを支える<span class="hl">スタッフ紹介</span></h2>
+      <p>国家資格を持つスタッフが、笑顔でお迎えします。</p>
+    </div>
+    <div class="staff-grid">
+      <div class="scard staff-real reveal left">
+        <div class="ph-wrap">
+          <div class="sphoto"><img src="画像/staff-iwai.jpg" alt="岩井 拓磨（写真）"></div>
+          <img class="schibi" src="画像/iwai3.png" alt="岩井 拓磨のキャラクター">
+        </div>
+        <div class="sinfo">
+          <div class="role">柔道整復師</div>
+          <h4>岩井 拓磨</h4>
+          <p>つらい痛みに親身に寄り添います。何でもご相談ください。</p>
+        </div>
+      </div>
+      <div class="scard staff-real reveal right">
+        <div class="ph-wrap">
+          <div class="sphoto"><img src="画像/staff-murase.jpg" alt="村瀬 将之（写真）"></div>
+          <img class="schibi" src="画像/murase1.png" alt="村瀬 将之のキャラクター">
+        </div>
+        <div class="sinfo">
+          <div class="role">柔道整復師</div>
+          <h4>村瀬 将之</h4>
+          <p>お一人おひとりの状態に合わせた丁寧な施術を心がけています。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ▼ スクロール出現アニメを使う場合のみ（既にIntersectionObserverがあるなら不要） -->
+<script>
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
