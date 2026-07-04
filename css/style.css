@@ -382,3 +382,37 @@ header.scrolled{box-shadow:0 6px 24px rgba(32,49,58,.08)}
 .lcard h3{font-size:15.5px;font-weight:700;line-height:1.8;letter-spacing:.04em}
 .lcard p{font-size:12.5px;color:var(--gray);margin-top:8px;flex:1}
 .lcard time{font-size:11px;color:var(--gray);font-family:'Marcellus',serif;letter-spacing:.1em;margin-top:12px;display:block}
+
+/* ============================================================
+   症状ページ：解剖イラスト・時期カード・負の連鎖
+============================================================ */
+figure.anat{margin:34px auto;max-width:600px;text-align:center}
+figure.anat svg{width:100%;height:auto;border:1px solid var(--line);background:#fbfaf8;border-radius:6px}
+figure.anat figcaption{font-size:12px;color:var(--gray);margin-top:10px;letter-spacing:.04em;line-height:1.7}
+
+/* 3つの時期カード */
+.phase{display:grid;grid-template-columns:210px 1fr;gap:30px;align-items:center;background:#fff;border:1px solid var(--line);border-left:5px solid var(--teal);padding:28px 32px;margin:22px 0;box-shadow:0 6px 20px rgba(32,49,58,.05)}
+.phase .pic{background:#fbfaf8;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.phase .pic svg{width:100%;height:auto;display:block}
+.phase h4{font-size:18px;font-weight:900;margin-bottom:10px;letter-spacing:.04em;line-height:1.5}
+.phase h4 .tag{display:inline-block;font-size:11px;color:#fff;background:var(--teal);padding:3px 12px;border-radius:999px;margin-right:10px;letter-spacing:.08em;vertical-align:middle}
+.phase p{font-size:13.5px;color:var(--gray);margin:0 0 10px}
+.phase p:last-child{margin-bottom:0}
+.phase .sym{font-size:12.5px;background:var(--bg);border-radius:6px;padding:12px 16px;margin-top:6px}
+.phase .sym b{color:var(--ink)}
+.phase.p1{border-left-color:#e8503a}.phase.p1 h4 .tag{background:#e8503a}
+.phase.p2{border-left-color:#3f7fae}.phase.p2 h4 .tag{background:#3f7fae}
+.phase.p3{border-left-color:#0abab5}.phase.p3 h4 .tag{background:#0abab5}
+@media(max-width:640px){.phase{grid-template-columns:1fr;gap:18px}.phase .pic{max-width:220px;margin:0 auto}}
+
+/* 放置の負の連鎖 */
+.chain{counter-reset:cn;margin:30px 0}
+.chain .lk{position:relative;background:#fdf3f2;border:1px solid #f3d5d2;padding:22px 26px 22px 84px}
+.chain .lk::before{counter-increment:cn;content:"0" counter(cn);position:absolute;left:24px;top:20px;width:40px;height:40px;background:#e8503a;color:#fff;border-radius:50%;display:grid;place-items:center;font-family:'Marcellus',serif;font-size:16px}
+.chain .lk h4{font-size:16px;font-weight:900;color:#c0392b;margin-bottom:6px;letter-spacing:.04em}
+.chain .lk p{font-size:13.5px;color:#8a5a55;margin:0}
+.chain .arrow{text-align:center;color:#e8503a;font-size:20px;line-height:1;padding:8px 0}
+.chain .lk.worst{background:#31201e;border-color:#31201e}
+.chain .lk.worst::before{background:#fff;color:#31201e}
+.chain .lk.worst h4{color:#ff8a76}
+.chain .lk.worst p{color:#e3c6c1}
