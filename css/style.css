@@ -429,3 +429,15 @@ figure.anat.wide{max-width:880px}
 /* 生成イラストアイコン（TOP症状・選ばれる理由） */
 .sym .sym-img{width:96px;height:96px;border-radius:16px;margin-bottom:12px;display:inline-block;vertical-align:middle}
 .rcard .ricon{width:74px;height:74px;border-radius:15px;margin-bottom:18px;display:block}
+
+/* 治療哲学：核心ワード帯とソフト/ダイナミック選択 */
+.keyword{background:linear-gradient(120deg,var(--teal),#3ccbc6);color:#fff;text-align:center;padding:28px 24px;margin:28px 0;font-size:clamp(17px,2.7vw,23px);font-weight:900;letter-spacing:.05em;line-height:1.75;border-radius:10px;box-shadow:0 12px 30px rgba(10,186,181,.22)}
+.keyword b{color:#fff29e}
+.pick{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:26px 0}
+.pick .p{border:1px solid var(--line);border-radius:12px;padding:24px 26px;background:#fff;box-shadow:0 6px 20px rgba(32,49,58,.05)}
+.pick .p .tag{display:inline-block;font-family:'Marcellus',serif;font-size:11px;color:#fff;padding:4px 14px;border-radius:999px;margin-bottom:12px;letter-spacing:.14em}
+.pick .p h4{font-size:16.5px;font-weight:900;margin-bottom:8px;letter-spacing:.04em}
+.pick .p p{font-size:13.5px;color:var(--gray);margin:0}
+.pick .p.soft .tag{background:var(--teal)} .pick .p.soft h4{color:var(--teal-deep)}
+.pick .p.dyna .tag{background:#e8734a} .pick .p.dyna h4{color:#d0564a}
+@media(max-width:640px){.pick{grid-template-columns:1fr}}
