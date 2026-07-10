@@ -497,3 +497,11 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgcta .b.tel{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
 .btgcta .gl{display:block;width:56px;height:1px;background:#c8a86b;margin:26px auto 0}
 .btgcta{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+
+/* === ギャラリーページ(masonry・重なりなし) === */
+.btgtop .masonry{columns:3;column-gap:20px}
+.btgtop .masonry img{width:100%;margin:0 0 20px;border-radius:8px;box-shadow:0 10px 26px rgba(32,49,58,.10);display:block;break-inside:avoid;border:1px solid var(--line)}
+@media(max-width:900px){.btgtop .masonry{columns:2}}
+@media(max-width:560px){.btgtop .masonry{columns:1;column-gap:14px}}
+/* 外観写真 */
+.btgtop .gaikan{width:100%;border-radius:8px;box-shadow:0 14px 34px rgba(32,49,58,.12);display:block}
