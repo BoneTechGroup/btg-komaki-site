@@ -447,3 +447,13 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop a{text-decoration:none}
 .btgtop img{max-width:100%;height:auto}
 .btgtop ul{list-style:none;padding:0;margin:0}
+
+/* === SWELLテーマの見出し・本文装飾を打ち消し === */
+.btgtop h1,.btgtop h2,.btgtop h3,.btgtop h4{background:transparent!important;border:none!important;padding:0!important;box-shadow:none!important;border-radius:0!important}
+.btgtop h1::before,.btgtop h1::after,.btgtop h2::before,.btgtop h2::after,.btgtop h3::before,.btgtop h3::after,.btgtop h4::before,.btgtop h4::after{display:none!important}
+.btgtop p{margin:0}
+.btgtop table{border:none;background:transparent}
+.btgtop table th,.btgtop table td{background:transparent;border:none}
+.btgtop .info th,.btgtop .info td{border-bottom:1px solid var(--line)}
+.btgtop .hours th,.btgtop .hours td{border:1px solid var(--line)}
+.btgtop details summary{list-style:none}
