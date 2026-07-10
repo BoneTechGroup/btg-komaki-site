@@ -457,3 +457,8 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .info th,.btgtop .info td{border-bottom:1px solid var(--line)}
 .btgtop .hours th,.btgtop .hours td{border:1px solid var(--line)}
 .btgtop details summary{list-style:none}
+
+/* 見出し文字色の復元（SWELLの白文字を打ち消し） */
+.btgtop h2,.btgtop h3,.btgtop h4{color:var(--ink)!important}
+.btgtop .parallax h2,.btgtop .bottom-cta h2,.btgtop .hero h1{color:#fff!important}
+.btgtop .hero h1 .t{color:var(--teal)!important}
