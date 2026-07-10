@@ -1,0 +1,499 @@
+<!-- title: 交通事故治療はお任せください -->
+<!-- url: https://sekkotsuin-komaki.com/jiko-tiryou-komaki/ -->
+<!-- modified: 2026-06-01T22:15:59 -->
+
+<style>
+.ta-lp,
+.ta-lp *{box-sizing:border-box}
+.ta-lp{
+  --red:#c63b32;
+  --red-dark:#a92b24;
+  --red-light:rgba(198,59,50,.1);
+  --gold:#8a6d3b;
+  --gold-light:#faf7f0;
+  --dark:#333;
+  --dark2:#444;
+  --green:#06c755;
+  --text:var(--vk-color-text-body,#464646);
+  --muted:var(--vk-color-text-light,#666);
+  --white:#fff;
+  --bg:#f7f7f7;
+  --radius:12px;
+  --radius-sm:8px;
+  max-width:430px;
+  margin:0 auto;
+  color:var(--text);
+  font-family:inherit;
+  background:var(--bg);
+  overflow-x:hidden;
+  padding-bottom:88px;
+}
+.ta-lp a{color:inherit;text-decoration:none}
+.ta-lp img{display:block;max-width:100%;height:auto}
+.ta-lp p,
+.ta-lp h1,
+.ta-lp h2,
+.ta-lp h3,
+.ta-lp h4,
+.ta-lp h5,
+.ta-lp h6{margin:0}
+.ta-lp section{margin:0}
+
+.ta-lp h1,
+.ta-lp h2,
+.ta-lp h3,
+.ta-lp h4,
+.ta-lp h5,
+.ta-lp h6{
+  font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Noto Sans JP",sans-serif;
+  padding:0;
+  border:0;
+  background:none;
+  border-radius:0;
+  box-shadow:none;
+  color:inherit;
+  letter-spacing:normal;
+  text-transform:none;
+}
+.ta-lp h1::before,
+.ta-lp h1::after,
+.ta-lp h2::before,
+.ta-lp h2::after,
+.ta-lp h3::before,
+.ta-lp h3::after,
+.ta-lp h4::before,
+.ta-lp h4::after,
+.ta-lp h5::before,
+.ta-lp h5::after,
+.ta-lp h6::before,
+.ta-lp h6::after{
+  content:none;
+  display:none;
+}
+.ta-lp table,
+.ta-lp thead,
+.ta-lp tbody,
+.ta-lp tfoot,
+.ta-lp tr,
+.ta-lp th,
+.ta-lp td{
+  background:none;
+  box-shadow:none;
+}
+.ta-lp table{
+  border-collapse:collapse;
+  border-spacing:0;
+  margin:0;
+  border:0;
+}
+.ta-lp th,
+.ta-lp td{
+  padding:0;
+  border:0;
+  vertical-align:top;
+  text-align:left;
+  font-weight:inherit;
+}
+
+.ta-lp .lp-hero{background:linear-gradient(160deg,var(--dark) 0%,var(--dark2) 60%,#555 100%);color:var(--white);position:relative;overflow:hidden}
+.ta-lp .hero-badge{background:var(--red);color:var(--white);font-size:11px;font-weight:700;letter-spacing:1px;padding:7px 16px;text-align:center;animation:ta-slide-down .5s ease}
+.ta-lp .hero-inner{padding:24px 20px 32px}
+.ta-lp .hero-kicker{font-size:10px;color:var(--gold);font-weight:700;letter-spacing:3px;margin-bottom:10px;opacity:0;animation:ta-fade-up .6s .2s forwards}
+.ta-lp .hero-h1{font-size:26px;font-weight:900;line-height:1.35;margin-bottom:18px;opacity:0;animation:ta-fade-up .6s .35s forwards}
+.ta-lp .hero-h1 span{color:var(--gold)}
+.ta-lp .hero-benefits{margin-bottom:24px;opacity:0;animation:ta-fade-up .6s .5s forwards}
+.ta-lp .benefit-item{display:flex;align-items:flex-start;gap:12px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.1)}
+.ta-lp .benefit-icon{width:30px;height:30px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0;margin-top:2px}
+.ta-lp .benefit-main{font-size:14px;font-weight:700}
+.ta-lp .benefit-sub{font-size:11px;color:rgba(255,255,255,.55);margin-top:2px}
+.ta-lp .hero-cta{display:flex;flex-direction:column;gap:10px;opacity:0;animation:ta-fade-up .6s .65s forwards}
+.ta-lp .btn-tel,
+.ta-lp .btn-line,
+.ta-lp .btn-omimai{display:flex;align-items:center;justify-content:center;gap:8px;border-radius:var(--radius);font-weight:700}
+.ta-lp .btn-tel{background:var(--red);color:var(--white);padding:16px;font-size:18px;box-shadow:0 4px 20px rgba(192,57,43,.35);animation:ta-pulse 2s 1.5s infinite}
+.ta-lp .btn-line{background:var(--green);color:var(--white);padding:14px;font-size:15px}
+.ta-lp .btn-omimai{background:var(--white);color:var(--red-dark);padding:13px 14px;font-size:14px;border:2px solid rgba(255,255,255,.75)}
+.ta-lp .hero-note{font-size:11px;color:rgba(255,255,255,.45);text-align:center;margin-top:10px}
+.ta-lp .hero-deco{position:absolute;right:-40px;bottom:40px;width:180px;height:180px;border-radius:50%;border:40px solid rgba(204,0,0,.06);pointer-events:none}
+.ta-lp .hero-deco2{position:absolute;right:18px;top:72px;font-size:92px;font-weight:900;line-height:1;color:rgba(198,59,50,.14);letter-spacing:-.06em;pointer-events:none;font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif}
+
+.ta-lp .lp-section,
+.ta-lp .warning-sec,
+.ta-lp .muchi-sec,
+.ta-lp .reasons-sec,
+.ta-lp .flow-sec,
+.ta-lp .profile-sec,
+.ta-lp .voice-sec,
+.ta-lp .faq-sec,
+.ta-lp .access-sec{padding:36px 20px}
+.ta-lp .section-label{font-size:10px;font-weight:700;letter-spacing:3px;color:var(--red);margin-bottom:6px}
+.ta-lp .section-title{font-size:21px;font-weight:900;line-height:1.4;margin-bottom:22px}
+
+.ta-lp .worry-list,
+.ta-lp .warning-cards,
+.ta-lp .reason-cards,
+.ta-lp .voice-cards{display:flex;flex-direction:column;gap:12px}
+.ta-lp .worry-item{background:var(--white);border-radius:var(--radius-sm);padding:14px 16px;display:flex;align-items:flex-start;gap:12px;border-left:4px solid var(--red);box-shadow:0 2px 8px rgba(0,0,0,.05);opacity:0;animation:ta-slide-in-left .6s ease forwards}
+.ta-lp .worry-item:nth-child(1){animation-delay:.1s}
+.ta-lp .worry-item:nth-child(2){animation-delay:.18s}
+.ta-lp .worry-item:nth-child(3){animation-delay:.26s}
+.ta-lp .worry-item:nth-child(4){animation-delay:.34s}
+.ta-lp .worry-item:nth-child(5){animation-delay:.42s}
+.ta-lp .worry-num{font-size:11px;font-weight:700;color:var(--red);min-width:20px;padding-top:2px}
+.ta-lp .worry-text{font-size:14px;line-height:1.55}
+
+.ta-lp .warning-sec{background:var(--dark);color:var(--white)}
+.ta-lp .warning-sec .section-label{color:var(--gold)}
+.ta-lp .warning-sec .section-title{color:var(--white)}
+.ta-lp .warn-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-sm);padding:16px;display:flex;gap:12px;align-items:flex-start;opacity:0;animation:ta-pop-in .6s ease forwards}
+.ta-lp .warn-card:nth-child(1){animation-delay:.08s}
+.ta-lp .warn-card:nth-child(2){animation-delay:.18s}
+.ta-lp .warn-card:nth-child(3){animation-delay:.28s}
+.ta-lp .warn-icon{font-size:20px;flex-shrink:0;margin-top:2px}
+.ta-lp .warn-title{font-size:13px;font-weight:700;color:var(--gold);margin-bottom:5px}
+.ta-lp .warn-body{font-size:13px;color:rgba(255,255,255,.7);line-height:1.6}
+
+.ta-lp .omimai-sec{background:var(--gold-light);padding:24px 20px}
+.ta-lp .omimai-btn{display:flex;flex-direction:column;gap:5px;background:var(--white);color:var(--red-dark);border:2px solid rgba(198,59,50,.18);border-radius:var(--radius);padding:16px 18px;box-shadow:0 4px 18px rgba(0,0,0,.06)}
+.ta-lp .omimai-btn-main{font-size:15px;font-weight:900;line-height:1.45}
+.ta-lp .omimai-btn-sub{font-size:11px;font-weight:700;color:var(--muted);line-height:1.5}
+
+.ta-lp .muchi-sec{background:#0f1b30;color:var(--white)}
+.ta-lp .muchi-sec .section-label{color:var(--gold)}
+.ta-lp .muchi-sec .section-title{color:var(--white)}
+.ta-lp .tab-radio{position:absolute;opacity:0;pointer-events:none}
+.ta-lp .tab-btns{display:flex;overflow-x:auto;gap:8px;margin-bottom:16px;padding-bottom:4px;scrollbar-width:none}
+.ta-lp .tab-btns::-webkit-scrollbar{display:none}
+.ta-lp .tab-btn{white-space:nowrap;padding:8px 14px;border-radius:20px;font-size:12px;font-weight:700;background:rgba(255,255,255,.1);color:rgba(255,255,255,.6);flex-shrink:0;cursor:pointer}
+.ta-lp .tab-content{display:none}
+.ta-lp .muchi-card{background:rgba(255,255,255,.07);border-radius:var(--radius);padding:20px 16px}
+.ta-lp .muchi-name{font-size:16px;font-weight:700;color:var(--gold);margin-bottom:8px}
+.ta-lp .muchi-pct{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;font-size:32px;color:var(--white);letter-spacing:.02em}
+.ta-lp .muchi-pct span{font-size:14px;color:rgba(255,255,255,.5);margin-left:4px}
+.ta-lp .muchi-bar{height:6px;background:rgba(255,255,255,.15);border-radius:3px;margin:10px 0}
+.ta-lp .muchi-fill{height:100%;border-radius:3px;background:var(--red)}
+.ta-lp .muchi-desc{font-size:13px;color:rgba(255,255,255,.65);line-height:1.65}
+#ta-tab-0:checked ~ .tab-btns label[for="ta-tab-0"],
+#ta-tab-1:checked ~ .tab-btns label[for="ta-tab-1"],
+#ta-tab-2:checked ~ .tab-btns label[for="ta-tab-2"],
+#ta-tab-3:checked ~ .tab-btns label[for="ta-tab-3"],
+#ta-tab-4:checked ~ .tab-btns label[for="ta-tab-4"]{background:var(--red);color:var(--white)}
+#ta-tab-0:checked ~ .tab-panels #ta-panel-0,
+#ta-tab-1:checked ~ .tab-panels #ta-panel-1,
+#ta-tab-2:checked ~ .tab-panels #ta-panel-2,
+#ta-tab-3:checked ~ .tab-panels #ta-panel-3,
+#ta-tab-4:checked ~ .tab-panels #ta-panel-4{display:block}
+
+.ta-lp .reasons-sec{background:var(--white)}
+.ta-lp .reason-cards{gap:16px}
+.ta-lp .reason-card{border-radius:var(--radius);overflow:hidden;box-shadow:0 3px 16px rgba(0,0,0,.08);opacity:0;animation:ta-fade-up .6s ease forwards}
+.ta-lp .reason-card:nth-child(1){animation-delay:.08s}
+.ta-lp .reason-card:nth-child(2){animation-delay:.18s}
+.ta-lp .reason-card:nth-child(3){animation-delay:.28s}
+.ta-lp .reason-card:nth-child(4){animation-delay:.38s}
+.ta-lp .reason-card:nth-child(5){animation-delay:.48s}
+.ta-lp .reason-head{background:var(--dark);padding:12px 16px;display:flex;align-items:center;gap:10px}
+.ta-lp .reason-num{font-family:Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;font-size:22px;color:var(--gold);min-width:36px;letter-spacing:.04em}
+.ta-lp .reason-label{font-size:14px;font-weight:700;color:var(--white)}
+.ta-lp .reason-body{padding:14px 16px;font-size:13px;line-height:1.65;color:var(--text);background:var(--white)}
+.ta-lp .reason-tag{display:inline-block;background:var(--red-light);color:var(--red-dark);font-size:11px;font-weight:700;padding:3px 8px;border-radius:4px;margin-bottom:7px}
+
+.ta-lp .flow-sec{background:var(--bg)}
+.ta-lp .flow-step{display:flex;gap:16px;margin-bottom:4px;opacity:0;animation:ta-slide-in-left .6s ease forwards}
+.ta-lp .flow-step:nth-child(1){animation-delay:.08s}
+.ta-lp .flow-step:nth-child(2){animation-delay:.18s}
+.ta-lp .flow-step:nth-child(3){animation-delay:.28s}
+.ta-lp .flow-step:nth-child(4){animation-delay:.38s}
+.ta-lp .flow-step:nth-child(5){animation-delay:.48s}
+.ta-lp .flow-left{display:flex;flex-direction:column;align-items:center}
+.ta-lp .flow-circle{width:40px;height:40px;border-radius:50%;background:var(--red);color:var(--white);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:15px;flex-shrink:0}
+.ta-lp .flow-line{width:2px;flex:1;background:linear-gradient(to bottom,var(--red),rgba(192,57,43,.1));min-height:20px}
+.ta-lp .flow-content{padding:6px 0 24px;flex:1}
+.ta-lp .flow-title{font-size:14px;font-weight:700;margin-bottom:4px}
+.ta-lp .flow-desc{font-size:12px;color:var(--muted);line-height:1.6}
+
+.ta-lp .profile-sec{background:var(--white)}
+.ta-lp .profile-card{background:var(--bg);border-radius:var(--radius);padding:20px 16px}
+.ta-lp .profile-photo,
+.ta-lp .profile-photo-placeholder{width:90px;height:90px;border-radius:50%;margin-bottom:14px;border:3px solid var(--red)}
+.ta-lp .profile-photo{object-fit:cover}
+.ta-lp .profile-photo-placeholder{background:#ddd;display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--muted)}
+.ta-lp .profile-name{font-size:18px;font-weight:900;margin-bottom:4px}
+.ta-lp .profile-title{font-size:12px;color:var(--muted);margin-bottom:14px}
+.ta-lp .profile-story{font-size:13px;line-height:1.8;color:var(--text)}
+.ta-lp .badge-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.ta-lp .badge{background:var(--dark);color:var(--white);font-size:11px;font-weight:700;padding:5px 10px;border-radius:20px}
+
+.ta-lp .voice-sec{background:var(--gold-light)}
+.ta-lp .voice-sec .section-label{color:var(--gold)}
+.ta-lp .voice-note{font-size:11px;color:var(--muted);background:var(--white);border-radius:var(--radius-sm);padding:10px 12px;margin-bottom:16px;line-height:1.6}
+.ta-lp .voice-card{background:var(--white);border-radius:var(--radius);padding:16px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.ta-lp .voice-header{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.ta-lp .voice-avatar{width:44px;height:44px;border-radius:50%;background:#eee;overflow:hidden;flex-shrink:0}
+.ta-lp .voice-avatar img{width:100%;height:100%;object-fit:cover}
+.ta-lp .voice-name{font-size:13px;font-weight:700}
+.ta-lp .voice-age{font-size:11px;color:var(--muted)}
+.ta-lp .voice-stars{color:var(--gold);font-size:14px;letter-spacing:2px;margin-bottom:6px}
+.ta-lp .voice-text{font-size:13px;line-height:1.7;color:var(--text)}
+
+.ta-lp .faq-sec{background:var(--white)}
+.ta-lp .faq-item{border-bottom:1px solid #eee}
+.ta-lp .faq-q{display:flex;align-items:flex-start;gap:10px;padding:16px 0;cursor:pointer;font-size:14px;font-weight:700;line-height:1.45;list-style:none}
+.ta-lp .faq-q::-webkit-details-marker{display:none}
+.ta-lp .faq-badge{background:var(--red);color:var(--white);font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;flex-shrink:0;margin-top:2px}
+.ta-lp .faq-arrow{margin-left:auto;font-size:18px;color:var(--muted);flex-shrink:0;transition:transform .3s}
+.ta-lp .faq-item[open] .faq-arrow{transform:rotate(180deg)}
+.ta-lp .faq-a-inner{font-size:13px;line-height:1.7;color:var(--muted);padding:0 0 16px 28px}
+
+.ta-lp .access-sec{background:var(--bg)}
+.ta-lp .info-table{width:100%;border-collapse:collapse;font-size:13px;margin-bottom:20px}
+.ta-lp .info-table td{padding:11px 0;border-bottom:1px solid #e8e8e8;vertical-align:top}
+.ta-lp .info-table td:first-child{color:var(--muted);width:72px;font-weight:700}
+.ta-lp .map-wrap{border-radius:var(--radius);overflow:hidden;height:220px;background:#ddd}
+.ta-lp .map-wrap iframe{width:100%;height:100%;border:0}
+
+.ta-lp .fixed-cta{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;background:rgba(22,33,62,.96);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:10px 16px;display:flex;gap:10px;z-index:9999;border-top:1px solid rgba(255,255,255,.1);animation:ta-rise-up .55s ease}
+.ta-lp .fixed-cta .btn-tel{flex:1;padding:13px;font-size:15px;box-shadow:none;animation:ta-pulse 2s 2s infinite}
+.ta-lp .fixed-cta .btn-line{flex:1;padding:13px;font-size:14px}
+
+@keyframes ta-slide-down{
+  from{transform:translateY(-100%)}
+  to{transform:translateY(0)}
+}
+@keyframes ta-fade-up{
+  from{opacity:0;transform:translateY(16px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes ta-slide-in-left{
+  from{opacity:0;transform:translateX(-20px)}
+  to{opacity:1;transform:translateX(0)}
+}
+@keyframes ta-pop-in{
+  from{opacity:0;transform:scale(.95)}
+  to{opacity:1;transform:scale(1)}
+}
+@keyframes ta-rise-up{
+  from{opacity:0;transform:translate(-50%,16px)}
+  to{opacity:1;transform:translate(-50%,0)}
+}
+@keyframes ta-pulse{
+  0%,100%{box-shadow:0 4px 20px rgba(192,57,43,.35)}
+  50%{box-shadow:0 4px 32px rgba(192,57,43,.65)}
+}
+
+@media (prefers-reduced-motion: reduce){
+  .ta-lp *,
+  .ta-lp *::before,
+  .ta-lp *::after{
+    animation:none !important;
+    transition:none !important;
+    scroll-behavior:auto !important;
+  }
+}
+
+@media (min-width:431px){
+  .ta-lp .fixed-cta{border-radius:12px 12px 0 0}
+}
+</style>
+
+<div class="ta-lp">
+  <section class="lp-hero">
+    <div class="hero-badge">交通事故に遭ったらまず当院へ。無料相談受付中</div>
+    <div class="hero-inner">
+      <p class="hero-kicker">TRAFFIC ACCIDENT SPECIALIST</p>
+      <h1 class="hero-h1">交通事故の痛み、<br><span>窓口負担0円</span>で<br>根本から解決します</h1>
+      <div class="hero-benefits">
+        <div class="benefit-item">
+          <div class="benefit-icon">¥</div>
+          <div><div class="benefit-sub">自賠責保険適用</div><div class="benefit-main">治療費・交通費すべて0円</div></div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">⚖</div>
+          <div><div class="benefit-sub">弁護士提携</div><div class="benefit-main">保険会社との交渉を代行</div></div>
+        </div>
+        <div class="benefit-item">
+          <div class="benefit-icon">✓</div>
+          <div><div class="benefit-sub">整形外科との</div><div class="benefit-main">併院・転院 OK</div></div>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="tel:0568901841" class="btn-tel">今すぐ無料電話相談</a>
+        <a href="https://lin.ee/Okdjhas" class="btn-line">LINE で気軽に相談</a>
+        <a href="https://sekkotsuin-komaki.com/omimakinnn/" class="btn-omimai">交通事故のお見舞金を受け取る</a>
+      </div>
+      <p class="hero-note">受付時間 平日・祝日：9:30～12:30／15:00～19:30 土曜：9:30～13:30 ／ 日曜日、第2・第4月曜日</p>
+    </div>
+    <div class="hero-deco"></div>
+    <div class="hero-deco2">¥0</div>
+  </section>
+
+  <section class="lp-section">
+    <p class="section-label">TROUBLE</p>
+    <h2 class="section-title">こんなお悩み、<br>ありませんか？</h2>
+    <div class="worry-list">
+      <div class="worry-item"><span class="worry-num">01</span><p class="worry-text">事故直後は平気だったのに、数日後から首や腰が痛む</p></div>
+      <div class="worry-item"><span class="worry-num">02</span><p class="worry-text">病院で「異常なし」と言われたが、痛みが続いてつらい</p></div>
+      <div class="worry-item"><span class="worry-num">03</span><p class="worry-text">保険会社からの電話対応が精神的にストレスになっている</p></div>
+      <div class="worry-item"><span class="worry-num">04</span><p class="worry-text">仕事が忙しく、平日の昼間に通院できない</p></div>
+      <div class="worry-item"><span class="worry-num">05</span><p class="worry-text">手続きが複雑で、どこに相談すればいいかわからない</p></div>
+    </div>
+  </section>
+
+  <section class="warning-sec">
+    <p class="section-label">WARNING</p>
+    <h2 class="section-title">その行動、<br>大きな損になっています</h2>
+    <div class="warning-cards">
+      <div class="warn-card"><span class="warn-icon">⚠</span><div><p class="warn-title">痛みが軽いからと物損扱いにする</p><p class="warn-body">後から症状が出ても補償を受けられなくなる可能性があります。必ず「人身事故」で処理してください。</p></div></div>
+      <div class="warn-card"><span class="warn-icon">⚠</span><div><p class="warn-title">保険会社の言うがまま治療を打ち切る</p><p class="warn-body">痛みが残っているのに「そろそろ終わりにしましょう」は不当な打ち切りです。弁護士提携の当院が守ります。</p></div></div>
+      <div class="warn-card"><span class="warn-icon">⚠</span><div><p class="warn-title">「たぶん大丈夫」と放置する</p><p class="warn-body">事故後はアドレナリンで痛みを感じにくい状態です。数日後に症状が急激に悪化することがあります。</p></div></div>
+    </div>
+  </section>
+
+  <section class="omimai-sec">
+    <a href="https://sekkotsuin-komaki.com/omimakinnn/" class="omimai-btn">
+      <span class="omimai-btn-main">交通事故のお見舞金について詳しく見る</span>
+      <span class="omimai-btn-sub">対象条件や受け取りまでの流れを確認できます</span>
+    </a>
+  </section>
+
+  <section class="muchi-sec">
+    <p class="section-label">KNOWLEDGE</p>
+    <h2 class="section-title">むちうちの種類</h2>
+    <input class="tab-radio" type="radio" name="ta-tabs" id="ta-tab-0" checked="">
+    <input class="tab-radio" type="radio" name="ta-tabs" id="ta-tab-1">
+    <input class="tab-radio" type="radio" name="ta-tabs" id="ta-tab-2">
+    <input class="tab-radio" type="radio" name="ta-tabs" id="ta-tab-3">
+    <input class="tab-radio" type="radio" name="ta-tabs" id="ta-tab-4">
+    <div class="tab-btns">
+      <label class="tab-btn" for="ta-tab-0">頸椎捻挫型</label>
+      <label class="tab-btn" for="ta-tab-1">根症状型</label>
+      <label class="tab-btn" for="ta-tab-2">バレ・リュー型</label>
+      <label class="tab-btn" for="ta-tab-3">脊髄症状型</label>
+      <label class="tab-btn" for="ta-tab-4">脳脊髄液減少</label>
+    </div>
+    <div class="tab-panels">
+      <div class="tab-content" id="ta-panel-0"><div class="muchi-card"><p class="muchi-name">頸椎捻挫型</p><p class="muchi-pct">70〜80<span>%</span></p><div class="muchi-bar"><div class="muchi-fill" style="width:78%"></div></div><p class="muchi-desc">最も多いタイプ。追突事故で多く見られ、首の靭帯が傷つき頚椎が捻挫した状態。首のこり・強い張り・違和感が主な症状。</p></div></div>
+      <div class="tab-content" id="ta-panel-1"><div class="muchi-card"><p class="muchi-name">根症状型</p><p class="muchi-pct">10〜15<span>%</span></p><div class="muchi-bar"><div class="muchi-fill" style="width:12%"></div></div><p class="muchi-desc">神経根が圧迫されて生じるタイプ。腕のしびれが起き、くしゃみや咳で症状が強まることも。</p></div></div>
+      <div class="tab-content" id="ta-panel-2"><div class="muchi-card"><p class="muchi-name">バレ・リュー型</p><p class="muchi-pct">5〜10<span>%</span></p><div class="muchi-bar"><div class="muchi-fill" style="width:8%"></div></div><p class="muchi-desc">首の痛みに加え、耳鳴り・めまい・頭痛などの症状が現れる。自律神経系への影響が原因とされる。</p></div></div>
+      <div class="tab-content" id="ta-panel-3"><div class="muchi-card"><p class="muchi-name">脊髄症状型</p><p class="muchi-pct">稀<span>（重症）</span></p><div class="muchi-bar"><div class="muchi-fill" style="width:5%"></div></div><p class="muchi-desc">脊髄が損傷し、下肢のしびれや知覚障害・歩行障害が起きることも。早期の専門治療が不可欠。</p></div></div>
+      <div class="tab-content" id="ta-panel-4"><div class="muchi-card"><p class="muchi-name">脳脊髄液減少症</p><p class="muchi-pct">要注意<span>起立性頭痛</span></p><div class="muchi-bar"><div class="muchi-fill" style="width:4%"></div></div><p class="muchi-desc">髄液が漏れ出し、起き上がると頭痛が強まる「起立性頭痛」が特徴。見落とされやすいため注意が必要。</p></div></div>
+    </div>
+  </section>
+
+  <section class="reasons-sec">
+    <p class="section-label">REASON</p>
+    <h2 class="section-title">当院が選ばれる<br>5つの理由</h2>
+    <div class="reason-cards">
+      <div class="reason-card"><div class="reason-head"><span class="reason-num">01</span><span class="reason-label">交通事故特化の専門手技</span></div><div class="reason-body"><span class="reason-tag">根本改善</span><br>レントゲンに写らない深部の損傷に対応。一人ひとりの状態を見極め、オーダーメイドの施術を提供します。</div></div>
+      <div class="reason-card"><div class="reason-head"><span class="reason-num">02</span><span class="reason-label">弁護士提携で権利を最大化</span></div><div class="reason-body"><span class="reason-tag">安心保障</span><br>不当な治療打ち切りをブロック。慰謝料・休業損害の適正化まで、法的サポートで患者様を守ります。</div></div>
+      <div class="reason-card"><div class="reason-head"><span class="reason-num">03</span><span class="reason-label">夜19:30まで・土祝も対応</span></div><div class="reason-body"><span class="reason-tag">通いやすさ</span><br>仕事帰りでも通える時間帯設定。駐車場完備・着替えスペースあり。お子様連れも歓迎します。</div></div>
+      <div class="reason-card"><div class="reason-head"><span class="reason-num">04</span><span class="reason-label">整形外科との併院・転院OK</span></div><div class="reason-body"><span class="reason-tag">柔軟対応</span><br>すでに病院に通っている方も大歓迎。保険会社への連絡も当院がサポートします。</div></div>
+      <div class="reason-card"><div class="reason-head"><span class="reason-num">05</span><span class="reason-label">最新設備・完全個室</span></div><div class="reason-body"><span class="reason-tag">新規開院</span><br>ハイボルテージなど最新の施術機器を完備。プライベートな個室空間で治療に集中できます。</div></div>
+    </div>
+  </section>
+
+  <section class="flow-sec">
+    <p class="section-label">FLOW</p>
+    <h2 class="section-title">相談から示談まで<br>ワンストップ</h2>
+    <div class="flow-steps">
+      <div class="flow-step"><div class="flow-left"><div class="flow-circle">1</div><div class="flow-line"></div></div><div class="flow-content"><p class="flow-title">無料電話 / LINE 相談</p><p class="flow-desc">まずはお気軽にご連絡ください。どんな些細なことでも構いません。</p></div></div>
+      <div class="flow-step"><div class="flow-left"><div class="flow-circle">2</div><div class="flow-line"></div></div><div class="flow-content"><p class="flow-title">保険会社への連絡を代行</p><p class="flow-desc">複雑な手続きはすべて当院がサポート。患者様はそのまま来院するだけです。</p></div></div>
+      <div class="flow-step"><div class="flow-left"><div class="flow-circle">3</div><div class="flow-line"></div></div><div class="flow-content"><p class="flow-title">来院・カウンセリング</p><p class="flow-desc">状態をしっかりヒアリング。お体の深部まで丁寧に検査します。</p></div></div>
+      <div class="flow-step"><div class="flow-left"><div class="flow-circle">4</div><div class="flow-line"></div></div><div class="flow-content"><p class="flow-title">専門施術スタート</p><p class="flow-desc">一人ひとりに合わせたオーダーメイドプランで根本から改善を目指します。</p></div></div>
+      <div class="flow-step"><div class="flow-left"><div class="flow-circle">5</div></div><div class="flow-content"><p class="flow-title">示談・アフターフォロー</p><p class="flow-desc">治療終了後も弁護士と連携し、適正な補償が受けられるまでサポートします。</p></div></div>
+    </div>
+  </section>
+
+  <section class="profile-sec">
+    <p class="section-label">PROFILE</p>
+    <h2 class="section-title">院長ご挨拶</h2>
+    <div class="profile-card">
+      <img decoding="async" class="profile-photo" src="https://sekkotsuin-komaki.com/wp/wp-content/uploads/2026/04/img-top-message.png" alt="院長 岩井 拓磨">
+      <p class="profile-name">岩井 拓磨</p>
+      <p class="profile-title">柔道整復師 ／ 交通事故治療専門</p>
+      <p class="profile-story">BTG接骨院 春日井院では10年にわたり交通事故治療に特化してきました。<br><br>「痛みを取るだけでなく、患者様の生活を守りたい」という想いで、この地に新院を開きました。複雑な保険手続きや保険会社との交渉も含めて、治療から示談まで責任を持って対応いたします。</p>
+      <div class="badge-row">
+        <span class="badge">柔道整復師（国家資格）</span>
+        <span class="badge">弁護士提携</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="voice-sec">
+    <p class="section-label">VOICE</p>
+    <h2 class="section-title">患者様の喜びの声</h2>
+    <p class="voice-note">※以下は前任地・BTG接骨院 春日井院にて院長が担当した患者様からいただいたお声です。</p>
+    <div class="voice-cards">
+      <div class="voice-card">
+        <div class="voice-header">
+          <div class="voice-avatar"><img decoding="async" src="https://sekkotsuin-komaki.com/wp/wp-content/uploads/2026/04/img-lp01.jpg" alt="Y.M様"></div>
+          <div><p class="voice-name">Y.M 様</p><p class="voice-age">30代・女性（会社員）</p></div>
+        </div>
+        <p class="voice-stars">★★★★★</p>
+        <p class="voice-text"><strong>病院で「異常なし」と言われた首の痛みが改善しました！</strong><br><br>追突事故に遭い、数日経ってから首から背中にかけて強い痛みと重だるさが出ました。すぐに整形外科でレントゲンを撮りましたが「骨に異常はない」と言われ、湿布と痛み止めだけで済まされてしまい途方に暮れていました。<br><br>不安になって岩井先生に相談したところ、レントゲンには写らない筋肉や神経のダメージについて分かりやすく説明してくれました。施術はとても丁寧で、通うたびに首がスムーズに動くようになるのを実感できました。あのまま我慢せずに、先生を頼って本当に良かったです。</p>
+      </div>
+      <div class="voice-card">
+        <div class="voice-header">
+          <div class="voice-avatar"><img decoding="async" src="https://sekkotsuin-komaki.com/wp/wp-content/uploads/2026/04/img-lp03.jpg" alt="T.K様"></div>
+          <div><p class="voice-name">T.K 様</p><p class="voice-age">40代・男性（自営業）</p></div>
+        </div>
+        <p class="voice-stars">★★★★★</p>
+        <p class="voice-text"><strong>面倒な保険会社とのやり取りをすべてお任せできました</strong><br><br>事故のケガで体が辛いのに、相手の保険会社から「そろそろ治療を終わりにしませんか」と何度も電話がかかってきて、精神的にかなり参っていました。<br><br>そのことを先生に相談すると、「弁護士と提携しているので、その後の交渉はすべてこちらで対応します。安心して治療に専念してください」と言っていただき、本当に救われました。面倒な手続きをすべてお任せできたおかげで、不当に治療を打ち切られることもなく、しっかり完治するまで通院することができました。</p>
+      </div>
+      <div class="voice-card">
+        <div class="voice-header">
+          <div class="voice-avatar"><img decoding="async" src="https://sekkotsuin-komaki.com/wp/wp-content/uploads/2026/04/img-lp02.jpg" alt="A.S様"></div>
+          <div><p class="voice-name">A.S 様</p><p class="voice-age">20代・女性（アパレル勤務）</p></div>
+        </div>
+        <p class="voice-stars">★★★★★</p>
+        <p class="voice-text"><strong>夜遅くまで通えて、整形外科からの転院もスムーズでした</strong><br><br>最初は自宅近くの整形外科に通っていましたが、仕事が長引くと受付時間に間に合わず、まともに治療に通えない日々が続いていました。痛みが引かず悩んでいたところ、夜遅くまで受付しているこちらの接骨院を見つけました。<br><br>「今の病院から移れるのかな？」と不安でしたが、転院や併院の手続きも先生がスムーズにサポートしてくれました。仕事帰りにしっかり通院できるようになったおかげで、後遺症を残さずに済みました。親身になって話を聞いてくれる先生の存在がとても心強かったです。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-sec">
+    <p class="section-label">FAQ</p>
+    <h2 class="section-title">よくあるご質問</h2>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="faq-badge">Q</span>治療費は本当に0円ですか？<span class="faq-arrow">⌄</span></summary>
+      <p class="faq-a-inner">はい。加害者の自賠責保険が適用されるため、被害者の方は窓口でのお支払いが0円になります。交通費や文書料なども補償対象です。</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="faq-badge">Q</span>すでに病院に通っていますが転院できますか？<span class="faq-arrow">⌄</span></summary>
+      <p class="faq-a-inner">可能です。転院の手続きも当院がサポートします。また、整形外科との同時通院（併院）も問題ありません。</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="faq-badge">Q</span>事故直後で痛みがないのですが受診すべきですか？<span class="faq-arrow">⌄</span></summary>
+      <p class="faq-a-inner">ぜひ受診ください。事故後はアドレナリンの影響で痛みを感じにくい状態です。数日後に症状が出てからでは手続きが複雑になる場合があります。</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="faq-badge">Q</span>診断書は書いてもらえますか？<span class="faq-arrow">⌄</span></summary>
+      <p class="faq-a-inner">当院は接骨院のため診断書の発行はできませんが、提携の整形外科をご紹介することが可能です。必要書類の手配もサポートします。</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="faq-badge">Q</span>保険会社に治療打ち切りを言われたら？<span class="faq-arrow">⌄</span></summary>
+      <p class="faq-a-inner">すぐにご相談ください。提携弁護士が対応し、適切な治療期間を確保できるよう交渉いたします。泣き寝入りは不要です。</p>
+    </details>
+  </section>
+
+  <section class="access-sec">
+    <p class="section-label">ACCESS</p>
+    <h2 class="section-title">アクセス・店舗情報</h2>
+    <table class="info-table">
+      <tbody><tr><td>院名</td><td>BTG接骨院 小牧院</td></tr>
+      <tr><td>住所</td><td>〒485-0058 愛知県小牧市小木1丁目112 プローグ小木Ⅱ1階</td></tr>
+      <tr><td>電話</td><td>0568-90-1841</td></tr>
+      <tr><td>受付</td><td>平日・祝日：9:30～12:30／15:00～19:30 土曜：9:30～13:30</td></tr>
+      <tr><td>休診</td><td>日曜日、第2・第4月曜日</td></tr>
+      <tr><td>最寄り</td><td>国道41号線から県道451号線に入りまして、すぐ左にございます。</td></tr>
+    </tbody></table>
+    <div class="map-wrap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.872743128683!2d136.8990503!3d35.28429009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60030b154120d0d3%3A0x267416d8579d5112!2zQlRH5o6l6aqo6ZmiIOWwj-eJp-mZoiDjgJA05pyIMTTml6VPUEVO5LqI5a6a77yB44CR!5e0!3m2!1sja!2sjp!4v1775931945975!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <div class="fixed-cta">
+    <a href="tel:0568901841" class="btn-tel">今すぐ電話</a>
+    <a href="https://lin.ee/Okdjhas" class="btn-line">LINE相談</a>
+  </div>
+</div>

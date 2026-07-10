@@ -1,0 +1,62 @@
+# 現行サイト コンテンツ一覧（2026-07-10 取得）
+
+## pages (45件)
+- [お見舞金受け取りの流れ](pages/omimakinnn.html) — https://sekkotsuin-komaki.com/omimakinnn/
+- [交通事故治療はお任せください](pages/jiko-tiryou-komaki.html) — https://sekkotsuin-komaki.com/jiko-tiryou-komaki/
+- [BTG接骨院 小牧院について](pages/about.html) — https://sekkotsuin-komaki.com/about/
+- [小牧市で「顎関節症」を根本改善｜BTG接骨院の顎関節・首の歪み調整](pages/temporomandibulardisorders.html) — https://sekkotsuin-komaki.com/contents/temporomandibulardisorders/
+- [小牧市で「自律神経の乱れ」を整える｜BTG接骨院の自律神経専門整体](pages/jiritusinnkei.html) — https://sekkotsuin-komaki.com/contents/jiritusinnkei/
+- [小牧市で「肉離れ」を早期改善｜BTG接骨院の最新除痛×筋肉再生リハビリ](pages/nikubanare.html) — https://sekkotsuin-komaki.com/contents/nikubanare/
+- [小牧市で「ねんざ（捻挫）」を早期改善｜BTG接骨院の靭帯修復・再発防止リハビリ](pages/sprain-nenza.html) — https://sekkotsuin-komaki.com/contents/sprain-nenza/
+- [小牧市で「オスグッド病・膝の痛み」を根本改善｜BTG接骨院の学生スポーツ専門ケア](pages/オスグット病（ヒザの痛み）.html) — https://sekkotsuin-komaki.com/contents/%e3%82%aa%e3%82%b9%e3%82%b0%e3%83%83%e3%83%88%e7%97%85%ef%bc%88%e3%83%92%e3%82%b6%e3%81%ae%e7%97%9b%e3%81%bf%ef%bc%89/
+- [小牧市でゴルフ肘・野球肘を早期改善｜BTG接骨院の「投球・スイング復帰」プログラム](pages/baseballelbow.html) — https://sekkotsuin-komaki.com/contents/baseballelbow/
+- [小牧市で「変形性膝関節症」の痛みを根本改善｜BTG接骨院の膝関節再生プログラム](pages/osteoarthritisoftheknee.html) — https://sekkotsuin-komaki.com/contents/osteoarthritisoftheknee/
+- [小牧市で「シンスプリント・すねの痛み」を早期改善｜BTG接骨院のスポーツ復帰プログラム](pages/shinsplints.html) — https://sekkotsuin-komaki.com/contents/shinsplints/
+- [小牧市で「かかとの痛み」を根本改善｜BTG接骨院の足底筋膜炎・アーチ矯正プログラム](pages/plantarfasciitis.html) — https://sekkotsuin-komaki.com/contents/plantarfasciitis/
+- [小牧市で坐骨神経痛（足のしびれ・痛み）を根本改善｜BTG接骨院の専門リハビリ](pages/sciatica.html) — https://sekkotsuin-komaki.com/contents/sciatica/
+- [小牧市でお尻の痛み・梨状筋症候群を根本改善｜BTG接骨院の「深層筋リリース」](pages/rijoukinsyoukougun.html) — https://sekkotsuin-komaki.com/contents/rijoukinsyoukougun/
+- [小牧市で「腰椎ヘルニア」のしびれ・痛みを根本改善｜BTG接骨院の神経圧迫解消プログラム](pages/lumbar-hernia.html) — https://sekkotsuin-komaki.com/contents/lumbar-hernia/
+- [小牧市で「ぎっくり腰」の激痛を即効解消｜BTG接骨院の早期回復・再発防止プログラム](pages/strained-back.html) — https://sekkotsuin-komaki.com/contents/strained-back/
+- [小牧市で「肩甲骨・背中の痛み」を解消｜BTG接骨院の肩甲骨はがし×巻き肩矯正](pages/kenkoukotu.html) — https://sekkotsuin-komaki.com/contents/kenkoukotu/
+- [小牧市で「慢性腰痛」を根本改善｜BTG接骨院の20万回実績に基づく原因解明プログラム](pages/koshi.html) — https://sekkotsuin-komaki.com/contents/koshi/
+- [小牧市で腱鞘炎・手首の痛みを改善｜BTG接骨院の「産後ママ・仕事復帰」サポート](pages/tenosynovitis.html) — https://sekkotsuin-komaki.com/contents/tenosynovitis/
+- [小牧市でテニス肘を根本改善｜BTG接骨院の「深層筋リリース×早期復帰」プログラム](pages/tenniselbow.html) — https://sekkotsuin-komaki.com/contents/tenniselbow/
+- [小牧市で腕・背中の「しびれ」を根本改善｜BTG接骨院の神経圧迫解消プログラム](pages/tenosibire.html) — https://sekkotsuin-komaki.com/contents/tenosibire/
+- [小牧市で四十肩・五十肩を根本改善｜BTG接骨院の「病期別」専門リハビリ](pages/frozenshoulder.html) — https://sekkotsuin-komaki.com/contents/frozenshoulder/
+- [小牧市で「ストレートネック・スマホ首」を根本改善｜BTG接骨院の頸椎アーチ再生プログラム](pages/straight-neck.html) — https://sekkotsuin-komaki.com/contents/straight-neck/
+- [小牧市で頭痛を根本改善｜BTG接骨院の「自律神経調整×頸椎矯正」](pages/zutuu.html) — https://sekkotsuin-komaki.com/contents/zutuu/
+- [小牧市で「寝違え」の激痛を即効解消｜BTG接骨院の炎症ケアと再発防止プログラム](pages/netigae.html) — https://sekkotsuin-komaki.com/contents/netigae/
+- [小牧市で肩こり・肩の痛みを根本改善｜BTG接骨院の「深層筋調整×骨格矯正」](pages/stiffshoulder.html) — https://sekkotsuin-komaki.com/contents/stiffshoulder/
+- [小牧市で交通事故後の「手首の痛み」を治療｜TFCC損傷・捻挫の専門リハビリ](pages/koutuujiko-tekubi.html) — https://sekkotsuin-komaki.com/contents/koutuujiko-tekubi/
+- [小牧市で交通事故後の「めまい・耳鳴り」を解消｜BTG接骨院の自律神経専門ケア](pages/memai-muchiuti.html) — https://sekkotsuin-komaki.com/contents/memai-muchiuti/
+- [小牧市で交通事故後の「腰痛」にお悩みの方へ｜後遺症を残さない根本改善](pages/koutuujiko-youtuu.html) — https://sekkotsuin-komaki.com/contents/koutuujiko-youtuu/
+- [小牧市で交通事故後の肩の痛み・ハンドル損傷の治療ならBTG接骨院](pages/mutiuti-kata.html) — https://sekkotsuin-komaki.com/contents/mutiuti-kata/
+- [小牧市で交通事故後の「頭痛・吐き気」を解消｜自律神経を整える専門アプローチ](pages/muchiuti-zutuu.html) — https://sekkotsuin-komaki.com/contents/muchiuti-zutuu/
+- [小牧市での「むち打ち」専門治療ならBTG接骨院｜後遺症を残さない徹底リハビリ](pages/whiplash.html) — https://sekkotsuin-komaki.com/contents/whiplash/
+- [小牧市で「身体の歪み」を根本改善｜BTG接骨院の全身骨格・バランス調整](pages/kotubankyousei.html) — https://sekkotsuin-komaki.com/contents/kotubankyousei/
+- [小牧市で猫背矯正・姿勢改善ならBTG接骨院｜スマホ首・ストレートネックも根本改善](pages/nekoze.html) — https://sekkotsuin-komaki.com/contents/nekoze/
+- [小牧市で産後骨盤矯正ならBTG接骨院｜産後の体型戻し・不調を根本から解消](pages/sango.html) — https://sekkotsuin-komaki.com/contents/sango/
+- [小牧市で骨盤矯正ならBTG接骨院｜20万回の実績で歪みを整え、不調を繰り返さない身体へ](pages/kotsuban.html) — https://sekkotsuin-komaki.com/contents/kotsuban/
+- [小牧市で労災保険（労働災害）の治療ならBTG接骨院｜手続き代行から専門施術まで](pages/rousai-kasugaisi.html) — https://sekkotsuin-komaki.com/contents/rousai-kasugaisi/
+- [小牧市で痛みの即効改善なら「ハイボルテージ施術」｜BTG接骨院の最新鋭機器](pages/highvoltage.html) — https://sekkotsuin-komaki.com/contents/highvoltage/
+- [料金](pages/price.html) — https://sekkotsuin-komaki.com/price/
+- [小牧市での交通事故治療・むち打ちはBTG接骨院｜窓口負担0円・夜20時まで受付](pages/jiko-tiryou-kasugai.html) — https://sekkotsuin-komaki.com/contents/jiko-tiryou-kasugai/
+- [お悩み・施術別メニュー](pages/contents.html) — https://sekkotsuin-komaki.com/contents/
+- [アクセス](pages/access.html) — https://sekkotsuin-komaki.com/access/
+- [初めての方へ](pages/first.html) — https://sekkotsuin-komaki.com/first/
+- [ブログ](pages/blog.html) — https://sekkotsuin-komaki.com/blog/
+- [ホーム](pages/home.html) — https://sekkotsuin-komaki.com/
+
+## posts (11件)
+- [交通事故後すぐに接骨院へ相談すべき理由【小牧市の接骨院】](posts/交通事故後すぐに接骨院へ相談すべき理由【小牧.html) — https://sekkotsuin-komaki.com/blog/%e4%ba%a4%e9%80%9a%e4%ba%8b%e6%95%85%e5%be%8c%e3%81%99%e3%81%90%e3%81%ab%e6%8e%a5%e9%aa%a8%e9%99%a2%e3%81%b8%e7%9b%b8%e8%ab%87%e3%81%99%e3%81%b9%e3%81%8d%e7%90%86%e7%94%b1%e3%80%90%e5%b0%8f%e7%89%a7/
+- [7月10日(金)　本日の予約空き状況](posts/7月10日本日の予約空き状況.html) — https://sekkotsuin-komaki.com/blog/7%e6%9c%8810%e6%97%a5%e6%9c%ac%e6%97%a5%e3%81%ae%e4%ba%88%e7%b4%84%e7%a9%ba%e3%81%8d%e7%8a%b6%e6%b3%81/
+- [冷房の部屋で首肩がガチガチ…夏の肩こりが増える理由とは【小牧市の接骨院】](posts/冷房の部屋で首肩がガチガチ夏の肩こりが増え.html) — https://sekkotsuin-komaki.com/blog/%e5%86%b7%e6%88%bf%e3%81%ae%e9%83%a8%e5%b1%8b%e3%81%a7%e9%a6%96%e8%82%a9%e3%81%8c%e3%82%ac%e3%83%81%e3%82%ac%e3%83%81%e5%a4%8f%e3%81%ae%e8%82%a9%e3%81%93%e3%82%8a%e3%81%8c%e5%a2%97%e3%81%88/
+- [肩こりがなかなか良くならない人へ｜肩だけが原因ではない肩こりケア｜BTG接骨院 小牧院　【小牧市の接骨院】](posts/肩こりがなかなか良くならない人へ｜肩だけが原.html) — https://sekkotsuin-komaki.com/blog/%e8%82%a9%e3%81%93%e3%82%8a%e3%81%8c%e3%81%aa%e3%81%8b%e3%81%aa%e3%81%8b%e8%89%af%e3%81%8f%e3%81%aa%e3%82%89%e3%81%aa%e3%81%84%e4%ba%ba%e3%81%b8%ef%bd%9c%e8%82%a9%e3%81%a0%e3%81%91%e3%81%8c%e5%8e%9f/
+- [接骨院でも自賠責保険で通える？交通事故後の相談ならBTG接骨院 小牧院　【小牧市の接骨院】](posts/接骨院でも自賠責保険で通える？交通事故後の相.html) — https://sekkotsuin-komaki.com/blog/%e6%8e%a5%e9%aa%a8%e9%99%a2%e3%81%a7%e3%82%82%e8%87%aa%e8%b3%a0%e8%b2%ac%e4%bf%9d%e9%99%ba%e3%81%a7%e9%80%9a%e3%81%88%e3%82%8b%ef%bc%9f%e4%ba%a4%e9%80%9a%e4%ba%8b%e6%95%85%e5%be%8c%e3%81%ae%e7%9b%b8/
+- [寝ても疲れが取れない方へ　ドライヘッドスパと自律神経ケアの関係【小牧市の接骨院】](posts/寝ても疲れが取れない方へ　ドライヘッドスパと.html) — https://sekkotsuin-komaki.com/blog/%e5%af%9d%e3%81%a6%e3%82%82%e7%96%b2%e3%82%8c%e3%81%8c%e5%8f%96%e3%82%8c%e3%81%aa%e3%81%84%e6%96%b9%e3%81%b8%e3%80%80%e3%83%89%e3%83%a9%e3%82%a4%e3%83%98%e3%83%83%e3%83%89%e3%82%b9%e3%83%91%e3%81%a8/
+- [育児中の首肩こりが限界…抱っこ姿勢で崩れやすい体のバランス【小牧市の接骨院】](posts/育児中の首肩こりが限界抱っこ姿勢で崩れやす.html) — https://sekkotsuin-komaki.com/blog/%e8%82%b2%e5%85%90%e4%b8%ad%e3%81%ae%e9%a6%96%e8%82%a9%e3%81%93%e3%82%8a%e3%81%8c%e9%99%90%e7%95%8c%e6%8a%b1%e3%81%a3%e3%81%93%e5%a7%bf%e5%8b%a2%e3%81%a7%e5%b4%a9%e3%82%8c%e3%82%84%e3%81%99/
+- [肩こりで湿布や薬に頼りがちな方へ｜根本から見直したいポイント【小牧市の接骨院】](posts/肩こりで湿布や薬に頼りがちな方へ｜根本から見.html) — https://sekkotsuin-komaki.com/blog/%e8%82%a9%e3%81%93%e3%82%8a%e3%81%a7%e6%b9%bf%e5%b8%83%e3%82%84%e8%96%ac%e3%81%ab%e9%a0%bc%e3%82%8a%e3%81%8c%e3%81%a1%e3%81%aa%e6%96%b9%e3%81%b8%ef%bd%9c%e6%a0%b9%e6%9c%ac%e3%81%8b%e3%82%89%e8%a6%8b/
+- [季節の変わり目に体調を崩しやすい人へ｜整えるべきは首・背中・骨盤【小牧市の接骨院】](posts/季節の変わり目に体調を崩しやすい人へ｜整える.html) — https://sekkotsuin-komaki.com/blog/%e5%ad%a3%e7%af%80%e3%81%ae%e5%a4%89%e3%82%8f%e3%82%8a%e7%9b%ae%e3%81%ab%e4%bd%93%e8%aa%bf%e3%82%92%e5%b4%a9%e3%81%97%e3%82%84%e3%81%99%e3%81%84%e4%ba%ba%e3%81%b8%ef%bd%9c%e6%95%b4%e3%81%88%e3%82%8b/
+- [肩甲骨がガチガチな人へ｜背中が軽くなる“肩甲骨はがし”とは？【小牧市の接骨院】](posts/肩甲骨がガチガチな人へ｜背中が軽くなる肩甲.html) — https://sekkotsuin-komaki.com/blog/%e8%82%a9%e7%94%b2%e9%aa%a8%e3%81%8c%e3%82%ac%e3%83%81%e3%82%ac%e3%83%81%e3%81%aa%e4%ba%ba%e3%81%b8%ef%bd%9c%e8%83%8c%e4%b8%ad%e3%81%8c%e8%bb%bd%e3%81%8f%e3%81%aa%e3%82%8b%e8%82%a9%e7%94%b2/
+- [春日井・一宮に続く3店舗目！小牧院がついにOPEN🎉](posts/春日井一宮に続く3店舗目小牧院がついにopen.html) — https://sekkotsuin-komaki.com/blog/%e6%98%a5%e6%97%a5%e4%ba%95%e4%b8%80%e5%ae%ae%e3%81%ab%e7%b6%9a%e3%81%8f3%e5%ba%97%e8%88%97%e7%9b%ae%e5%b0%8f%e7%89%a7%e9%99%a2%e3%81%8c%e3%81%a4%e3%81%84%e3%81%abopen/
+
