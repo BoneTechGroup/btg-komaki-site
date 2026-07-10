@@ -496,3 +496,4 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgcta .b.web{background:#0abab5;color:#fff}
 .btgcta .b.tel{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.5)}
 .btgcta .gl{display:block;width:56px;height:1px;background:#c8a86b;margin:26px auto 0}
+.btgcta{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
