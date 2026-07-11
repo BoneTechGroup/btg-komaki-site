@@ -500,7 +500,8 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 
 /* === ハイブリッドブロック化対応（トップをブロック分割しても崩れない補助） === */
 .post_content>.btgtop{margin-top:0!important;margin-bottom:0!important}
-.btgtop .wp-block-group{margin:0}
+/* 従来型テーマではグループに内部divが挿入されるため、レイアウト計算から透過させる */
+.btgtop .wp-block-group__inner-container{display:contents}
 .btgtop .strip strong{color:var(--gold);font-weight:500}
 .btgtop .greet .bubble strong{color:var(--teal-deep)}
 .btgtop .ba-top{background:var(--sand)}
