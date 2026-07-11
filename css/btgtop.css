@@ -498,6 +498,16 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgcta .gl{display:block;width:56px;height:1px;background:#c8a86b;margin:26px auto 0}
 .btgcta{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
 
+/* === ハイブリッドブロック化対応（トップをブロック分割しても崩れない補助） === */
+.post_content>.btgtop{margin-top:0!important;margin-bottom:0!important}
+.btgtop .wp-block-group{margin:0}
+.btgtop .strip strong{color:var(--gold);font-weight:500}
+.btgtop .greet .bubble strong{color:var(--teal-deep)}
+.btgtop .ba-top{background:var(--sand)}
+.btgtop .gal-sec{background:var(--sand);overflow:hidden}
+.btgtop .jr-sec{overflow:hidden}
+.btgtop .message h2.sec{margin-bottom:26px}
+
 /* === ギャラリーページ(masonry・重なりなし) === */
 .btgtop .masonry{columns:3;column-gap:20px}
 .btgtop .masonry img{width:100%;margin:0 0 20px;border-radius:8px;box-shadow:0 10px 26px rgba(32,49,58,.10);display:block;break-inside:avoid;border:1px solid var(--line)}
