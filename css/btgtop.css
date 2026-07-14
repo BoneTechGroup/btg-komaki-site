@@ -586,3 +586,11 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 
 /* SWELLボタン: 1行固定・最小幅 */
 .btgtop .swell-block-button__link{white-space:nowrap;min-width:230px}
+
+/* === SWELLボタン: ティールグラデーション+白明朝 === */
+.btgtop .swell-block-button__link{background:linear-gradient(135deg,#079490 0%,#0abab5 55%,#4fd6c9 100%)!important;color:#fff!important;font-family:'Zen Old Mincho','Hiragino Mincho ProN','Yu Mincho',serif;font-weight:700;letter-spacing:.18em}
+
+/* === 見出しの改行を自然に(バランス改行)+スマホ縮小 === */
+.btgtop .sec{text-wrap:balance}
+.btgtop .sec-head p{text-wrap:balance}
+@media(max-width:640px){.btgtop .sec{font-size:20px;letter-spacing:.1em}}
