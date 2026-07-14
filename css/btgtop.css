@@ -604,3 +604,4 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .avail p{font-size:13px}
 .btgtop .parallax h2{font-size:19px}
 }
+.btgtop .bm-item p{text-wrap:pretty}
