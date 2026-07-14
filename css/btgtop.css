@@ -102,7 +102,7 @@ header{position:sticky;top:0;z-index:100;background:rgba(251,250,248,.9);backdro
 .btgtop .movie .en-label{color:var(--gold)}
 .btgtop .movie p.lead{color:#aeb9b5;font-size:14px;margin:14px 0 44px}
 .btgtop .movie video{width:min(760px,100%);display:block;margin:0 auto;box-shadow:0 24px 60px rgba(0,0,0,.45)}
-.btgtop /* スマホは background-attachment:fixed が効かないため、clip-path＋fixedレイヤーで同じ演出を再現 */
+/* スマホは background-attachment:fixed が効かないため、clip-path＋fixedレイヤーで同じ演出を再現 */
 @media(max-width:900px){
   .btgtop .parallax{background-image:none!important;clip-path:inset(0);padding:96px 0}
   .btgtop .parallax::before{content:"";position:fixed;left:0;top:0;width:100vw;height:100lvh;z-index:-1;background-size:cover;background-position:center}
