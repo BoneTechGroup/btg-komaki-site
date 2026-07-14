@@ -583,3 +583,6 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 
 /* === セクション見出しを上品な明朝体に === */
 .btgtop .sec{font-family:'Zen Old Mincho','Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif;font-weight:700;letter-spacing:.14em}
+
+/* SWELLボタン: 1行固定・最小幅 */
+.btgtop .swell-block-button__link{white-space:nowrap;min-width:230px}
