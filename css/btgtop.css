@@ -500,6 +500,13 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 
 /* === ハイブリッドブロック化対応（トップをブロック分割しても崩れない補助） === */
 .post_content>.btgtop{margin-top:0!important;margin-bottom:0!important}
+/* モバイルの固定バー用余白はWP上では不要（ブロック毎に隙間が空くのを防止） */
+@media(max-width:900px){.post_content .btgtop{padding-bottom:0}}
+/* 本日の空き状況バナー帯（純白背景・中央寄せ） */
+.btgtop.avail{background:#fff;padding:60px 24px;text-align:center}
+.btgtop.avail .wp-block-image{margin:0 auto;max-width:560px}
+.btgtop.avail img{width:100%;height:auto;display:block}
+@media(max-width:900px){.btgtop.avail{padding:40px 20px}}
 /* 従来型テーマではグループに内部divが挿入されるため、レイアウト計算から透過させる */
 .btgtop .wp-block-group__inner-container{display:contents}
 .btgtop .strip strong{color:var(--gold);font-weight:500}
