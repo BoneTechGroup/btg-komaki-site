@@ -545,3 +545,6 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .mosaic .w2{grid-column:span 2}
 .btgtop .mosaic .t2{grid-row:span 2}
 @media(max-width:900px){.btgtop .mosaic{grid-template-columns:repeat(2,1fr);grid-auto-rows:132px;gap:10px}.btgtop .mosaic figcaption{font-size:10.5px;padding:20px 8px 8px}}
+
+/* CTAバンド見出し: モバイルで1行に */
+@media(max-width:640px){.btgcta .t{font-size:16.5px;letter-spacing:.06em;white-space:nowrap}.btgcta .s{font-size:11.5px}}
