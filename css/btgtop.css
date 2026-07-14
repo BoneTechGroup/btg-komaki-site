@@ -573,3 +573,13 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 @keyframes bmScroll{to{transform:translateX(-50%)}}
 @media(hover:hover){.btgtop .marquee:hover #bm-track{animation-play-state:paused}}
 @media(max-width:640px){.btgtop #bm-track{animation-duration:38s}}
+
+/* === スライダー画像サイズを強制(横長260px・正方形化バグ対策) === */
+.btgtop .slider-track-row img,.slider-track-row img{width:400px!important;height:260px!important;object-fit:cover!important;max-width:none!important}
+.infinite-slider-bottom{margin-top:14px!important}
+@media screen and (max-width:768px){
+.btgtop .slider-track-row img,.slider-track-row img{width:220px!important;height:140px!important}
+}
+
+/* === セクション見出しを上品な明朝体に === */
+.btgtop .sec{font-family:'Zen Old Mincho','Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif;font-weight:700;letter-spacing:.14em}
