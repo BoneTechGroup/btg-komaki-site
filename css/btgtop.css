@@ -605,3 +605,5 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .parallax h2{font-size:19px}
 }
 .btgtop .bm-item p{text-wrap:pretty}
+.btgcta .btgcta-hours{white-space:nowrap}
+@media(max-width:640px){.btgcta .btgcta-hours{display:block;margin-top:3px}.btgcta .btgcta-sep{display:none}}
