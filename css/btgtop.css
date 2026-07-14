@@ -565,3 +565,11 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 /* === マーキー: スクロール方式(iOSレイヤー上限対策) === */
 .btgtop .marquee{overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
 .btgtop .marquee::-webkit-scrollbar{display:none}
+
+/* === ブログマーキー: 純CSSアニメで復旧(いわくら方式) === */
+.btgtop .marquee{overflow:hidden}
+.btgtop #bm-track{gap:0;animation:bmScroll 50s linear infinite}
+.btgtop #bm-track .bm-item{margin-right:22px}
+@keyframes bmScroll{to{transform:translateX(-50%)}}
+@media(hover:hover){.btgtop .marquee:hover #bm-track{animation-play-state:paused}}
+@media(max-width:640px){.btgtop #bm-track{animation-duration:38s}}
