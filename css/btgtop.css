@@ -472,7 +472,7 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .marquee{overflow:hidden;position:relative;padding:6px 0}
 .btgtop .marquee .track{display:flex;gap:22px;width:max-content;animation:btgscroll 42s linear infinite}
 .btgtop .marquee.slow .track{animation-duration:60s}
-@media(hover:hover){.btgtop .marquee:hover .track{animation-play-state:paused}}
+@media(hover:hover){.btgtop .marquee:not(.pop):hover .track{animation-play-state:paused}}
 @keyframes btgscroll{to{transform:translateX(-50%)}}
 .btgtop .bm-item{width:300px;flex:none;background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:0 10px 26px rgba(32,49,58,.07);text-decoration:none;transition:transform .3s}
 .btgtop .bm-item:hover{transform:translateY(-4px)}
