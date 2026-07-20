@@ -623,3 +623,9 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .jiko-band .jk-txt b{font-size:13px}
 .btgtop .jiko-band .jk-txt small{font-size:10.5px}
 }
+
+/* === 交通事故セクション(旧jiko-band置き換え) === */
+.btgtop .jiko-sec{background:linear-gradient(135deg,#fff6f5 0%,#ffeef2 100%);padding:64px 0 68px}
+.btgtop .jiko-sec .en-label{color:#e8506e}
+.btgtop .jiko-sec .sec-head{margin-bottom:26px}
+.btgtop .jk-red .swell-block-button__link{background:linear-gradient(135deg,#ee5a7a 0%,#f4907b 100%)!important;box-shadow:0 10px 24px rgba(238,90,122,.30)}
