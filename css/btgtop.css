@@ -629,3 +629,13 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .jiko-sec .en-label{color:#e8506e}
 .btgtop .jiko-sec .sec-head{margin-bottom:26px}
 .btgtop .jk-red .swell-block-button__link{background:linear-gradient(135deg,#ee5a7a 0%,#f4907b 100%)!important;box-shadow:0 10px 24px rgba(238,90,122,.30)}
+
+/* === メニュー・症状一覧ディレクトリ === */
+.btgtop .dir-h{font-size:17px;font-weight:700;color:var(--teal-deep);letter-spacing:.12em;margin:42px 0 16px;padding-left:12px;border-left:4px solid var(--teal);font-family:'Zen Old Mincho','Hiragino Mincho ProN',serif}
+.btgtop .dir-h:first-of-type{margin-top:10px}
+.btgtop .dir-h.red{color:#e8506e;border-left-color:#ee5a7a}
+.btgtop .dir-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.btgtop .dir-grid a{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:13px 15px;font-size:13.5px;font-weight:700;color:var(--ink);text-decoration:none;letter-spacing:.04em;white-space:nowrap;transition:transform .25s,border-color .25s,box-shadow .25s}
+.btgtop .dir-grid a::after{content:"\2192";color:var(--teal);flex:none;font-weight:400}
+.btgtop .dir-grid a:hover{border-color:var(--teal);transform:translateY(-2px);box-shadow:0 8px 18px rgba(10,186,181,.12)}
+@media(max-width:640px){.btgtop .dir-grid{grid-template-columns:1fr 1fr;gap:8px}.btgtop .dir-grid a{font-size:12px;padding:11px 10px}}
