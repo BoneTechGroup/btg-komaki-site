@@ -1,0 +1,81 @@
+<!-- wp:html -->
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@600;700&family=Marcellus&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://bonetechgroup.github.io/btg-komaki-site/css/btgtop.css">
+<div class="btgtop">
+
+<section style="padding-top:48px;padding-bottom:80px">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="en-label">Menu</span>
+      <h2 class="sec">お悩み・施術別メニュー</h2>
+      <p>気になる症状・メニューをタップすると、原因と施術内容を詳しくご覧いただけます。</p>
+    </div>
+
+    <h3 class="dir-h">姿勢・骨格の矯正メニュー</h3>
+    <div class="dir-grid reveal">
+      <a href="/contents/kotsuban/">骨盤矯正</a>
+      <a href="/contents/kotubankyousei/">全身バランス調整</a>
+      <a href="/contents/nekoze/">猫背・姿勢矯正</a>
+      <a href="/contents/sango/">産後骨盤矯正</a>
+      <a href="/contents/straight-neck/">ストレートネック</a>
+      <a href="/contents/kenkoukotu/">肩甲骨はがし</a>
+    </div>
+
+    <h3 class="dir-h">つらい症状・痛み</h3>
+    <div class="dir-grid reveal">
+      <a href="/contents/stiffshoulder/">肩こり・首こり</a>
+      <a href="/contents/koshi/">慢性腰痛</a>
+      <a href="/contents/strained-back/">ぎっくり腰</a>
+      <a href="/contents/zutuu/">頭痛</a>
+      <a href="/contents/sciatica/">坐骨神経痛</a>
+      <a href="/contents/rijoukinsyoukougun/">梨状筋症候群</a>
+      <a href="/contents/lumbar-hernia/">腰椎ヘルニア</a>
+      <a href="/contents/frozenshoulder/">四十肩・五十肩</a>
+      <a href="/contents/netigae/">寝違え</a>
+      <a href="/contents/tenosibire/">腕・手のしびれ</a>
+      <a href="/contents/jiritusinnkei/">自律神経の乱れ</a>
+      <a href="/contents/temporomandibulardisorders/">顎関節症</a>
+    </div>
+
+    <h3 class="dir-h">スポーツのケガ・障害</h3>
+    <div class="dir-grid reveal">
+      <a href="/contents/sprain-nenza/">ねんざ</a>
+      <a href="/contents/nikubanare/">肉離れ</a>
+      <a href="/contents/baseballelbow/">野球肘・ゴルフ肘</a>
+      <a href="/contents/tenniselbow/">テニス肘</a>
+      <a href="/contents/osteoarthritisoftheknee/">変形性膝関節症</a>
+      <a href="/contents/shinsplints/">シンスプリント</a>
+      <a href="/contents/plantarfasciitis/">足底筋膜炎</a>
+      <a href="/contents/%e3%82%aa%e3%82%b9%e3%82%b0%e3%83%83%e3%83%88%e7%97%85%ef%bc%88%e3%83%92%e3%82%b6%e3%81%ae%e7%97%9b%e3%81%bf%ef%bc%89/">オスグッド病</a>
+      <a href="/contents/tenosynovitis/">腱鞘炎</a>
+    </div>
+
+    <h3 class="dir-h red">交通事故・労災</h3>
+    <div class="dir-grid reveal">
+      <a href="/jiko-tiryou-komaki/">交通事故治療</a>
+      <a href="/contents/whiplash/">むち打ち</a>
+      <a href="/contents/muchiuti-zutuu/">頭痛・吐き気</a>
+      <a href="/contents/mutiuti-kata/">肩の痛み</a>
+      <a href="/contents/koutuujiko-youtuu/">事故後の腰痛</a>
+      <a href="/contents/memai-muchiuti/">めまい・耳鳴り</a>
+      <a href="/contents/koutuujiko-tekubi/">手首の痛み</a>
+      <a href="/contents/rousai-kasugaisi/">労災保険での治療</a>
+    </div>
+
+    <h3 class="dir-h">最新機器による施術</h3>
+    <div class="dir-grid reveal">
+      <a href="/contents/highvoltage/">ハイボルテージ施術</a>
+    </div>
+  </div>
+</section>
+
+</div>
+<script>
+(function(){
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.05, rootMargin: '0px 0px -3% 0px' });
+  document.querySelectorAll('.btgtop .reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+<!-- /wp:html -->
