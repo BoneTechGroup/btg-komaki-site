@@ -520,6 +520,10 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .gal-sec{background:var(--sand);overflow:hidden}
 .btgtop .jr-sec{overflow:hidden}
 .btgtop .message h2.sec{margin-bottom:26px}
+/* aboutページ ブロック化用 */
+.btgtop .pt56{padding-top:56px}
+.btgtop .prof-note{font-size:13.5px}
+.btgtop .mt18{margin-top:18px}
 
 /* === ギャラリーページ(masonry・重なりなし) === */
 .btgtop .masonry{columns:3;column-gap:20px}
