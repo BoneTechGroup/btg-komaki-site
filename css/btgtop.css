@@ -534,6 +534,7 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 /* aboutページ ブロック化用 */
 .btgtop .pt56{padding-top:56px}
 /* firstページ（初めての方へ）用 */
+.btgtop section p{text-wrap:pretty}
 .btgtop .resv-text h3{font-size:17px;font-weight:700;letter-spacing:.08em;margin-bottom:12px;padding-left:14px;border-left:3px solid var(--teal)}
 .btgtop .resv-text p{font-size:14px;color:var(--gray);margin-bottom:14px}
 .btgtop .movie .lead{color:#aeb9b5;font-size:14px;margin:14px 0 44px;max-width:720px;margin-left:auto;margin-right:auto}
