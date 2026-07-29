@@ -517,7 +517,8 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 @media(max-width:900px){.btgtop.avail{padding:40px 20px 20px}}
 /* お知らせ帯（空き状況の下） */
 .btgtop.newsband{background:#fff;padding:26px 24px 64px;text-align:center}
-.btgtop.newsband .news-label{font-family:'Marcellus',serif;font-size:12px;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;display:block;margin-bottom:14px}
+.btgtop.newsband .news-label{font-family:'Marcellus',serif;font-size:12px;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;display:block;margin-bottom:10px}
+.btgtop.newsband .news-title{font-size:21px;margin-bottom:22px}
 .btgtop.newsband .wp-block-image{margin:0 auto;max-width:640px;overflow:hidden;border-radius:14px;box-shadow:0 14px 34px rgba(32,49,58,.14);transition:transform .3s}
 .btgtop.newsband .wp-block-image:hover{transform:translateY(-4px)}
 .btgtop.newsband img{width:100%;height:auto;display:block}
