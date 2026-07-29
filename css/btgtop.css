@@ -507,11 +507,22 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .post_content>.btgtop{margin-top:0!important;margin-bottom:0!important}
 /* モバイルの固定バー用余白はWP上では不要（ブロック毎に隙間が空くのを防止） */
 @media(max-width:900px){.post_content .btgtop{padding-bottom:0}}
-/* 本日の空き状況バナー帯（純白背景・中央寄せ） */
-.btgtop.avail{background:#fff;padding:60px 24px;text-align:center}
-.btgtop.avail .wp-block-image{margin:0 auto;max-width:560px}
+/* 本日の空き状況バナー帯（純白背景・中央寄せ・キラ演出） */
+.btgtop.avail{background:#fff;padding:60px 24px 30px;text-align:center}
+.btgtop.avail .wp-block-image{margin:0 auto;max-width:560px;position:relative;overflow:hidden;border-radius:14px;box-shadow:0 14px 34px rgba(10,186,181,.22);animation:availFloat 3.2s ease-in-out infinite}
+.btgtop.avail .wp-block-image::after{content:"";position:absolute;top:-10%;left:-80%;width:45%;height:120%;background:linear-gradient(105deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.7) 50%,rgba(255,255,255,0) 100%);transform:skewX(-22deg);animation:availShine 3.6s ease-in-out infinite;pointer-events:none}
 .btgtop.avail img{width:100%;height:auto;display:block}
-@media(max-width:900px){.btgtop.avail{padding:40px 20px}}
+@keyframes availShine{0%,55%{left:-80%}90%,100%{left:130%}}
+@keyframes availFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media(prefers-reduced-motion:reduce){.btgtop.avail .wp-block-image,.btgtop.avail .wp-block-image::after{animation:none}}
+@media(max-width:900px){.btgtop.avail{padding:40px 20px 20px}}
+/* お知らせ帯（空き状況の下） */
+.btgtop.newsband{background:#fff;padding:26px 24px 64px;text-align:center}
+.btgtop.newsband .news-label{font-family:'Marcellus',serif;font-size:12px;letter-spacing:.4em;color:var(--gold);text-transform:uppercase;display:block;margin-bottom:14px}
+.btgtop.newsband .wp-block-image{margin:0 auto;max-width:640px;overflow:hidden;border-radius:14px;box-shadow:0 14px 34px rgba(32,49,58,.14);transition:transform .3s}
+.btgtop.newsband .wp-block-image:hover{transform:translateY(-4px)}
+.btgtop.newsband img{width:100%;height:auto;display:block}
+@media(max-width:900px){.btgtop.newsband{padding:18px 20px 44px}}
 /* 従来型テーマではグループに内部divが挿入されるため、レイアウト計算から透過させる */
 .btgtop .wp-block-group__inner-container{display:contents}
 .btgtop .strip strong{color:var(--gold);font-weight:500}
