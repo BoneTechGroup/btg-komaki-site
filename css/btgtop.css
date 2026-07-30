@@ -531,6 +531,11 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .message h2.sec{margin-bottom:26px}
 /* aboutページ ブロック化用 */
 .btgtop .pt56{padding-top:56px}
+/* ギャラリー/BA ブロック化用 */
+.btgtop .wrap-wide{max-width:1180px}
+.btgtop .mt16{margin-top:16px}
+.btgtop .mosaic .wp-block-image{margin:0}
+.btgtop .ba-grid2 .wp-block-image{margin:0}
 /* contentsメニュー一覧 ブロック化用 */
 .btgtop .menu-dir{padding:48px 0 80px}
 .btgtop .dir-grid p{margin:0;min-width:0}
