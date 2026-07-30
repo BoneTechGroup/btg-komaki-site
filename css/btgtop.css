@@ -531,6 +531,10 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .message h2.sec{margin-bottom:26px}
 /* aboutページ ブロック化用 */
 .btgtop .pt56{padding-top:56px}
+/* contentsメニュー一覧 ブロック化用 */
+.btgtop .menu-dir{padding:48px 0 80px}
+.btgtop .dir-grid p{margin:0;min-width:0}
+.btgtop .dir-grid p a{width:100%}
 /* firstページ（初めての方へ）用 */
 .btgtop section p{text-wrap:pretty}
 .btgtop .resv-text h3{font-size:17px;font-weight:700;letter-spacing:.08em;margin-bottom:12px;padding-left:14px;border-left:3px solid var(--teal)}
