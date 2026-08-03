@@ -666,3 +666,9 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .dir-grid a::after{content:"\2192";color:var(--teal);flex:none;font-weight:400}
 .btgtop .dir-grid a:hover{border-color:var(--teal);transform:translateY(-2px);box-shadow:0 8px 18px rgba(10,186,181,.12)}
 @media(max-width:640px){.btgtop .dir-grid{grid-template-columns:1fr 1fr;gap:8px}.btgtop .dir-grid a{font-size:12px;padding:11px 10px}}
+
+/* === トップページ: ヘッダー下の無駄な余白除去（stickyヘッダーなのに固定ヘッダー用paddingが二重） === */
+.home .l-content.l-container{padding-top:0!important}
+/* PCのみ有効な改行（スマホでは自然折返し） */
+.btgtop br.brpc{display:none}
+@media(min-width:768px){.btgtop br.brpc{display:inline}}
