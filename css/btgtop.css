@@ -735,3 +735,5 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 }
 .btgtop .av-jk-grid b,.btgtop .av-jk-grid span.s,.btgtop .av-shop .notes,.btgtop .av-lead,.btgtop .av-jiko .jk-lead,.btgtop p.av-hint,.btgtop p.av-note{text-wrap:pretty}
 .btgtop .av-jk-grid span.s{text-wrap:balance}
+.btgtop ul.av-times{grid-template-columns:repeat(auto-fit,minmax(88px,116px));justify-content:center}
+@media(max-width:640px){.btgtop ul.av-times{grid-template-columns:repeat(3,1fr)}}
