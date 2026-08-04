@@ -672,3 +672,64 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 /* PCのみ有効な改行（スマホでは自然折返し） */
 .btgtop br.brpc{display:none}
 @media(min-width:768px){.btgtop br.brpc{display:inline}}
+
+/* === 本日の空き状況ページ（/today/） === */
+.btgtop .av-head{text-align:center;padding-top:6px}
+.btgtop .av-lead{color:var(--gray);font-size:14.5px;line-height:2.1}
+.btgtop p.av-date{display:table;margin:30px auto 6px;background:linear-gradient(135deg,#079490,#0abab5 70%,#2cc8c3);color:#fff;font-weight:900;font-size:clamp(19px,3vw,25px);letter-spacing:.08em;padding:13px 34px;border-radius:999px;box-shadow:0 10px 26px rgba(10,186,181,.28)}
+.btgtop p.av-date::before{content:"📅 "}
+.btgtop p.av-note{text-align:center;color:var(--gray);font-size:12.5px;letter-spacing:.08em}
+.btgtop .av-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 26px 26px;box-shadow:0 12px 30px rgba(32,49,58,.06);position:relative}
+.btgtop .av-first{margin-top:34px;border:2px solid var(--teal);background:linear-gradient(180deg,#f2fbfa,#fff)}
+.btgtop .av-badge{position:absolute;top:-13px;left:26px;background:linear-gradient(135deg,#e8964a,#f7b731);color:#fff;font-size:11px;letter-spacing:.3em;font-family:'Marcellus',serif;padding:5px 18px;border-radius:999px;box-shadow:0 6px 14px rgba(232,150,74,.35)}
+.btgtop h2.av-card-h{background:none!important;border:none!important;padding:0!important;box-shadow:none!important;margin:4px 0 2px;font-size:19px;letter-spacing:.08em;color:var(--ink);font-family:'Zen Old Mincho','Hiragino Mincho ProN',serif}
+.btgtop h2.av-card-h::before,.btgtop h2.av-card-h::after{display:none!important}
+.btgtop h3.av-name{background:none!important;border:none!important;box-shadow:none!important;margin:0 0 2px;padding:0 0 0 12px!important;border-left:4px solid var(--teal)!important;font-size:18px;letter-spacing:.1em;font-family:'Zen Old Mincho','Hiragino Mincho ProN',serif}
+.btgtop h3.av-name::before,.btgtop h3.av-name::after{display:none!important}
+.btgtop p.av-label{font-size:11.5px;color:var(--gray);letter-spacing:.28em;margin:16px 0 0;font-family:'Marcellus',serif}
+.btgtop ul.av-times{list-style:none!important;display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:10px;padding:14px 0 4px!important;margin:0!important}
+.btgtop ul.av-times li{margin:0!important;background:#fff;border:2px solid var(--teal);color:var(--teal-deep);font-weight:700;font-size:17px;letter-spacing:.05em;text-align:center;padding:10px 4px;border-radius:12px;line-height:1.5;box-shadow:0 4px 10px rgba(10,186,181,.10)}
+.btgtop ul.av-times li::marker{content:""}
+.btgtop .av-first ul.av-times li{border-color:#eda75c;color:#d97f2e;box-shadow:0 4px 10px rgba(237,167,92,.14)}
+.btgtop p.av-hint{color:var(--gray);font-size:12.5px;margin-top:12px}
+.btgtop .av-staff-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:30px;align-items:start}
+@media(max-width:820px){.btgtop .av-staff-grid{grid-template-columns:1fr;gap:22px}}
+.btgtop .av-photo{margin:0 0 18px!important}
+.btgtop .av-photo img{width:100%;height:auto;border-radius:12px;display:block}
+.btgtop .av-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:36px 0 4px}
+.btgtop a.avb{flex:1;min-width:170px;max-width:250px;text-align:center;padding:15px 10px;border-radius:12px;color:#fff;font-weight:700;font-size:15px;text-decoration:none;letter-spacing:.1em;box-shadow:0 10px 22px rgba(32,49,58,.14);transition:transform .25s,box-shadow .25s;line-height:1.5}
+.btgtop a.avb small{display:block;font-size:10px;opacity:.88;letter-spacing:.14em;margin-top:2px;font-weight:500}
+.btgtop a.avb.line{background:#06c755}
+.btgtop a.avb.web{background:linear-gradient(135deg,#079490,#0abab5)}
+.btgtop a.avb.tel{background:linear-gradient(135deg,#e8964a,#f7b731)}
+.btgtop a.avb.jiko{background:linear-gradient(135deg,#ee5a7a,#f4907b);max-width:360px}
+.btgtop a.avb:hover{transform:translateY(-3px);box-shadow:0 14px 28px rgba(32,49,58,.2)}
+.btgtop .av-sec-head{text-align:center;margin:60px 0 22px}
+.btgtop .av-sec-head .en{font-family:'Marcellus',serif;font-size:11px;letter-spacing:.4em;color:var(--teal);display:block}
+.btgtop .av-sec-head h2{background:none!important;border:none!important;padding:0!important;box-shadow:none!important;margin:6px 0 0;font-size:clamp(21px,3vw,27px);letter-spacing:.14em;font-family:'Zen Old Mincho','Hiragino Mincho ProN',serif;color:var(--ink)}
+.btgtop .av-sec-head h2::before,.btgtop .av-sec-head h2::after{display:none!important}
+.btgtop .av-jiko{background:linear-gradient(180deg,#fff4f6,#fff);border:1px solid #f6d3da;border-radius:18px;padding:34px 26px;text-align:center}
+.btgtop .av-jiko .jk-lead{font-size:15px;line-height:2.1}
+.btgtop .av-jiko .jk-lead b{color:#e8506e}
+.btgtop .av-jk-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0 6px}
+@media(max-width:820px){.btgtop .av-jk-grid{grid-template-columns:1fr 1fr}}
+.btgtop .av-jk-grid .c{background:#fff;border:1px solid #f3ccd3;border-radius:12px;padding:18px 10px 14px;line-height:1.7}
+.btgtop .av-jk-grid .ic{font-size:26px;display:block}
+.btgtop .av-jk-grid b{display:block;color:#e8506e;font-size:14.5px;margin-top:6px;letter-spacing:.04em}
+.btgtop .av-jk-grid span.s{font-size:11.5px;color:var(--gray);display:block;margin-top:2px}
+.btgtop .av-jk-links{display:flex;gap:8px 26px;justify-content:center;flex-wrap:wrap;margin-top:16px;font-size:13.5px}
+.btgtop .av-jk-links a{color:#e8506e;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.btgtop .av-shop{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px 26px}
+.btgtop .av-shop .adr{text-align:center;line-height:2}
+.btgtop .av-shop .adr b{font-size:17px;letter-spacing:.1em;font-family:'Zen Old Mincho',serif}
+.btgtop .av-shop .adr a{color:var(--teal-deep);font-weight:700;text-decoration:none;font-size:20px;letter-spacing:.06em}
+.btgtop .av-shop .notes{font-size:12.5px;color:var(--gray);line-height:2;margin-top:12px;text-align:center}
+.btgtop .av-shop .notes .red{color:#e8506e;font-weight:700}
+@media(max-width:640px){
+  .btgtop .av-card{padding:24px 18px 22px}
+  .btgtop ul.av-times{grid-template-columns:repeat(3,1fr);gap:8px}
+  .btgtop ul.av-times li{font-size:15.5px;padding:9px 2px}
+  .btgtop .av-cta{gap:10px}
+  .btgtop a.avb{min-width:140px;font-size:14px}
+  .btgtop .av-jk-grid{gap:9px}
+}
