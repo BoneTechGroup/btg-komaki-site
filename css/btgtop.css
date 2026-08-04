@@ -733,3 +733,4 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
   .btgtop a.avb{min-width:140px;font-size:14px}
   .btgtop .av-jk-grid{gap:9px}
 }
+.btgtop .av-jk-grid b,.btgtop .av-jk-grid span.s,.btgtop .av-shop .notes,.btgtop .av-lead,.btgtop .av-jiko .jk-lead,.btgtop p.av-hint,.btgtop p.av-note{text-wrap:pretty}
