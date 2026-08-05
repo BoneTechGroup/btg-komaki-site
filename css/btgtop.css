@@ -737,3 +737,6 @@ figure.anat img{width:100%;height:auto;display:block;border:1px solid var(--line
 .btgtop .av-jk-grid span.s{text-wrap:balance}
 .btgtop ul.av-times{grid-template-columns:repeat(auto-fit,minmax(88px,116px));justify-content:center}
 @media(max-width:640px){.btgtop ul.av-times{grid-template-columns:repeat(3,1fr)}}
+/* 空き状況ページ: 事故カード5枚対応(PC5列/SPは5枚目を全幅) */
+.btgtop .av-jk-grid{grid-template-columns:repeat(5,1fr);gap:10px}
+@media(max-width:820px){.btgtop .av-jk-grid{grid-template-columns:1fr 1fr}.btgtop .av-jk-grid .c:last-child{grid-column:1/-1}}
