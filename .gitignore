@@ -1,2 +1,17 @@
 Thumbs.db
 desktop.ini
+
+# Local credentials and runtime exports
+.env
+.env.*
+!.env.example
+__pycache__/
+受け渡し/2026-09_ブログ整備/wp-latest.json
+受け渡し/2026-09_ブログ整備/wp-settings.json
+受け渡し/2026-09_ブログ整備/wp-categories.json
+# This handoff contains text and remote image references only
+受け渡し/2026-09_ブログ整備/**/*.png
+受け渡し/2026-09_ブログ整備/**/*.jpg
+受け渡し/2026-09_ブログ整備/**/*.jpeg
+受け渡し/2026-09_ブログ整備/**/*.webp
+受け渡し/2026-09_ブログ整備/**/*.gif

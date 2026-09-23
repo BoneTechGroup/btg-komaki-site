@@ -11,3 +11,8 @@
 ## メモ
 - ブラウザで index.html を開けばそのままプレビュー可能
 - 最終的に WordPress (sekkotsuin-komaki.com) へ反映予定
+
+
+## 作業再開・Claudeへの引き継ぎ
+
+[CLAUDE.md](CLAUDE.md) と [2026年9月のブログ整備記録](受け渡し/2026-09_ブログ整備/README.md) を参照してください。画像実体と認証情報は今回の引き継ぎに含めていません。
